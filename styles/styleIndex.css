@@ -86,10 +86,18 @@ div {
 .second-column {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     background-color: white;
     border-radius: 32px;
     padding: 32px;
     align-items: center;
+    height: 100%;
+}
+
+.text-container {
+    overflow-y: auto;
+    max-height: 300px;
+    width: 100%;
 }
 
 footer {
