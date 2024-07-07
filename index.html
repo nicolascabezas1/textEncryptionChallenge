@@ -16,15 +16,15 @@
 <main>
     <section>
         <label>
-            <textarea name="textarea" rows="10" cols="50">Write something here</textarea>
+            <textarea id="inputText" name="textarea" rows="10" cols="50" placeholder="Write something here"></textarea>
         </label>
         <aside>
             <img src="assets/bi_exclamation-circle-fill.svg" alt="icon alert">
             <p>Only lowercase letters and no accents</p>
         </aside>
         <div>
-            <button class="general-bottom primary-bottom">encrypt</button>
-            <button class="general-bottom secondary-bottom">decrypt</button>
+            <button id="encryptButton" class="general-bottom primary-bottom">encrypt</button>
+            <button id="decryptButton" class="general-bottom secondary-bottom">decrypt</button>
         </div>
     </section>
     <section class="second-column">
@@ -36,5 +36,6 @@
 <footer>
     <h3>Developed by Nicolas Cabezas</h3>
 </footer>
+<script src="app.js"></script>
 </body>
 </html>
