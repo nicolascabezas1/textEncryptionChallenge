@@ -5,9 +5,36 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/styleIndex.css">
     <title>Text Encryption</title>
 </head>
 <body>
-
+<header>
+    <img src="assets/alura_logo.svg" alt="logo alura">
+    <h1>Text Encryption Challenge</h1>
+</header>
+<main>
+    <section>
+        <label>
+            <textarea name="textarea" rows="10" cols="50">Write something here</textarea>
+        </label>
+        <aside>
+            <img src="assets/bi_exclamation-circle-fill.svg" alt="icon alert">
+            <p>Only lowercase letters and no accents</p>
+        </aside>
+        <div>
+            <button class="general-bottom primary-bottom">encrypt</button>
+            <button class="general-bottom secondary-bottom">decrypt</button>
+        </div>
+    </section>
+    <section class="second-column">
+        <img src="assets/muneco_search.svg" alt="A boy whit a magnifying glass">
+        <h2>No message was found</h2>
+        <p>Enter the text you want to encrypt or decrypt.</p>
+    </section>
+</main>
+<footer>
+    <h3>Developed by Nicolas Cabezas</h3>
+</footer>
 </body>
 </html>
